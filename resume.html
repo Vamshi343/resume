@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janapati Vamshi</title>
+    <title>Janapati Vamshi - Resume</title>
     <style>
         * {
             margin: 0;
@@ -13,56 +13,59 @@
         
         body {
             font-family: 'Calibri', Arial, sans-serif;
-            line-height: 1.15;
+            line-height: 1.4;
             color: #333;
-            padding: 20px 35px;
-            font-size: 9pt;
+            padding: 35px 45px;
+            font-size: 11pt;
         }
         
         .header {
             text-align: center;
-            margin-bottom: 6px;
-            padding-bottom: 4px;
-            border-bottom: 2px solid #2c3e50;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2.5px solid #34495e;
         }
         
         .name {
-            font-size: 18pt;
+            font-size: 26pt;
             color: #2c3e50;
             font-weight: 700;
-            margin-bottom: 2px;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
         }
         
         .contact {
-            font-size: 8.5pt;
+            font-size: 10pt;
             color: #555;
         }
         
         .section {
-            margin-bottom: 6px;
+            margin-bottom: 15px;
         }
         
         .section-title {
-            font-size: 9.5pt;
+            font-size: 11.5pt;
             font-weight: 700;
             color: #2c3e50;
             text-transform: uppercase;
-            margin-bottom: 3px;
-            padding-bottom: 1px;
-            border-bottom: 1.5px solid #2c3e50;
+            letter-spacing: 0.8px;
+            margin-bottom: 8px;
+            padding-bottom: 3px;
+            border-bottom: 1.5px solid #3498db;
         }
         
         .objective {
             text-align: justify;
-            font-size: 8.5pt;
-            line-height: 1.2;
+            font-size: 10.5pt;
+            line-height: 1.45;
+            color: #444;
         }
         
         .edu-row {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 1px;
-            font-size: 8.5pt;
+            margin-bottom: 5px;
+            font-size: 10.5pt;
         }
         
         .edu-title {
@@ -73,93 +76,60 @@
         .edu-detail {
             color: #666;
             font-style: italic;
-            font-size: 8pt;
+            font-size: 10pt;
         }
         
         .edu-year {
             color: #555;
-            font-size: 8.5pt;
-            white-space: nowrap;
+            font-size: 10pt;
         }
         
-        .exp-header {
-            display: flex;
-            justify-content: space-between;
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        
+        .skill-category {
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+        
+        .skill-category strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 3px;
+            font-size: 10.5pt;
+        }
+        
+        .skill-category ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+        
+        .skill-category li {
             margin-bottom: 2px;
         }
         
-        .exp-title {
-            font-weight: 600;
-            color: #2c3e50;
-            font-size: 8.5pt;
-        }
-        
-        .exp-org {
-            color: #555;
-            font-style: italic;
-            font-size: 8pt;
-        }
-        
-        .exp-date {
-            color: #555;
-            font-size: 8.5pt;
-            white-space: nowrap;
-        }
-        
-        .exp-description {
-            font-size: 8pt;
-            margin-left: 10px;
-            margin-top: 1px;
-        }
-        
-        .exp-description li {
-            margin-bottom: 0.5px;
-        }
-        
-        .two-col {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
-        }
-        
-        .col-item {
-            font-size: 8pt;
-            line-height: 1.15;
-        }
-        
-        .col-item strong {
-            color: #2c3e50;
-            display: block;
-            margin-bottom: 1px;
-            font-size: 8.5pt;
-        }
-        
-        .col-item ul {
-            margin-left: 10px;
-        }
-        
-        .col-item li {
-            margin-bottom: 0.5px;
-        }
-        
         .single-line {
-            font-size: 8pt;
-            margin-bottom: 1px;
+            font-size: 10pt;
+            margin-bottom: 3px;
         }
         
         .single-line strong {
             color: #2c3e50;
         }
         
-        .bring-grid {
+        .bring-list {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 4px;
-            font-size: 8pt;
+            gap: 8px;
+            font-size: 10pt;
+            line-height: 1.4;
         }
         
         .bring-item {
-            padding-left: 8px;
+            padding-left: 15px;
             position: relative;
         }
         
@@ -169,37 +139,39 @@
             left: 0;
             color: #27ae60;
             font-weight: bold;
+            font-size: 11pt;
         }
         
         .info-grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 8px;
-            font-size: 8pt;
+            font-size: 10pt;
         }
         
         .declaration {
-            font-size: 8pt;
-            margin-top: 4px;
+            font-size: 10pt;
+            margin-top: 12px;
         }
         
         .sig-row {
             display: flex;
             justify-content: space-between;
-            margin-top: 3px;
-            font-size: 8pt;
+            margin-top: 8px;
         }
     </style>
 </head>
 <body>
     <div class="header">
         <div class="name">JANAPATI VAMSHI</div>
-        <div class="contact">vamshijanapati24@gmail.com | +91 8919064001 | Hyderabad, Telangana</div>
+        <div class="contact">📧 vamshijanapati24@gmail.com | 📱 +91 8919064001 | 📍 Hyderabad, Telangana</div>
     </div>
 
     <div class="section">
         <div class="section-title">Career Objective</div>
-        <p class="objective">Motivated graduate with excellent interpersonal and organizational skills seeking an HR role in a progressive organization. Eager to leverage event management experience, strong communication abilities, and people-centric approach to contribute to talent acquisition, employee engagement, and organizational development while building a rewarding career in Human Resources.</p>
+        <p class="objective">
+            Motivated graduate with excellent communication skills seeking a customer support role in a dynamic MNC. Eager to leverage strong problem-solving abilities, multilingual proficiency, and adaptability to deliver exceptional service while contributing to organizational goals and growing professionally.
+        </p>
     </div>
 
     <div class="section">
@@ -228,43 +200,24 @@
     </div>
 
     <div class="section">
-        <div class="section-title">Experience & Activities</div>
-        <div class="exp-header">
-            <div>
-                <div class="exp-title">Club Member & Event Organizer</div>
-                <div class="exp-org">ECHOS Club ECM, J.B. Institute of Engineering and Technology</div>
-            </div>
-            <div class="exp-date">2021 - 2025</div>
-        </div>
-        <ul class="exp-description">
-            <li>Successfully organized and coordinated multiple college events, managing logistics, venue arrangements, and participant coordination</li>
-            <li>Collaborated with team members to plan event schedules, delegate responsibilities, and ensure smooth execution</li>
-            <li>Engaged with students and faculty to promote events and encourage participation, demonstrating strong interpersonal skills</li>
-            <li>Handled event documentation, feedback collection, and post-event analysis to improve future activities</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <div class="section-title">Key Skills for HR</div>
-        <div class="two-col">
-            <div class="col-item">
-                <strong>HR-Relevant Skills</strong>
+        <div class="section-title">Key Skills</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Communication & Customer Service</strong>
                 <ul>
-                    <li>Excellent interpersonal & relationship building</li>
-                    <li>Event planning and coordination</li>
-                    <li>Strong verbal and written communication</li>
-                    <li>Team collaboration and leadership</li>
-                    <li>Conflict resolution and problem-solving</li>
+                    <li>Excellent verbal and written communication</li>
+                    <li>Fluent in English, Telugu, and Hindi</li>
+                    <li>Strong active listening and problem-solving</li>
+                    <li>Professional email and phone etiquette</li>
                 </ul>
             </div>
-            <div class="col-item">
+            <div class="skill-category">
                 <strong>Professional Attributes</strong>
                 <ul>
-                    <li>People-centric with empathetic approach</li>
-                    <li>Detail-oriented and organized</li>
                     <li>Quick learner with positive attitude</li>
-                    <li>Confidentiality and professionalism</li>
-                    <li>Adaptable to dynamic work environments</li>
+                    <li>Team player with collaborative approach</li>
+                    <li>Detail-oriented and quality-focused</li>
+                    <li>Flexible with rotational/night shifts</li>
                 </ul>
             </div>
         </div>
@@ -272,20 +225,20 @@
 
     <div class="section">
         <div class="section-title">Technical Proficiency</div>
-        <div class="single-line"><strong>Computer Skills:</strong> MS Office (Word, Excel, PowerPoint), Email Management, Data Entry, HRIS basics</div>
+        <div class="single-line"><strong>Computer Skills:</strong> MS Office (Word, Excel, PowerPoint), Email Management, Data Entry</div>
         <div class="single-line"><strong>Typing Speed:</strong> 60+ WPM with high accuracy</div>
         <div class="single-line"><strong>Languages:</strong> English, Telugu, Hindi (Read, Write, Speak - Fluent)</div>
     </div>
 
     <div class="section">
-        <div class="section-title">What I Bring to HR</div>
-        <div class="bring-grid">
-            <div class="bring-item">Strong people management orientation</div>
-            <div class="bring-item">Proven event coordination experience</div>
-            <div class="bring-item">Excellent stakeholder management</div>
-            <div class="bring-item">Cultural awareness and inclusivity</div>
-            <div class="bring-item">Process-driven and systematic approach</div>
-            <div class="bring-item">Enthusiastic about employee engagement</div>
+        <div class="section-title">What I Bring</div>
+        <div class="bring-list">
+            <div class="bring-item">Customer-focused with empathetic approach</div>
+            <div class="bring-item">Strong analytical and logical thinking</div>
+            <div class="bring-item">Quick adaptation to new systems</div>
+            <div class="bring-item">Reliable with excellent work ethic</div>
+            <div class="bring-item">Comfortable in fast-paced environments</div>
+            <div class="bring-item">Culturally aware and team-oriented</div>
         </div>
     </div>
 
@@ -294,14 +247,14 @@
         <div class="info-grid">
             <div><strong>Availability:</strong> Immediate</div>
             <div><strong>Shift Flexibility:</strong> 24/7 rotational</div>
-            <div><strong>Work Mode:</strong> Office/WFH/Hybrid</div>
+            <div><strong>Work Mode:</strong> Office/WFH</div>
         </div>
     </div>
 
     <div class="section">
         <div class="section-title">Personal Details</div>
         <div class="info-grid">
-            <div><strong>Date of Birth:</strong> 03-04-2003</div>
+            <div><strong>Date of Birth:</strong> 03-04-2003 </div>
             <div><strong>Nationality:</strong> Indian</div>
             <div><strong>Marital Status:</strong> Single</div>
         </div>
@@ -310,9 +263,16 @@
     <div class="declaration">
         <strong>Declaration:</strong> I hereby declare that all information provided above is true and accurate to the best of my knowledge.
         <div class="sig-row">
-            <div><strong>Place:</strong> Hyderabad &nbsp;&nbsp; <strong>Date:</strong> ___________</div>
-            <div>___________________ (Janapati Vamshi)</div>
+            <div>
+                <strong>Place:</strong> Hyderabad<br>
+                <strong>Date:</strong> ___________
+            </div>
+            <div style="text-align: right; padding-right: 20px;">
+                ___________________<br>
+                (Janapati Vamshi)
+            </div>
         </div>
     </div>
 </body>
+
 </html>
