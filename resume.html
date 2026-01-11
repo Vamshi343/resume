@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janapati Vamshi - HR Resume</title>
+    <title>Janapati Vamshi</title>
     <style>
         * {
             margin: 0;
@@ -13,59 +13,56 @@
         
         body {
             font-family: 'Calibri', Arial, sans-serif;
-            line-height: 1.25;
+            line-height: 1.15;
             color: #333;
-            padding: 25px 40px;
-            font-size: 9.5pt;
+            padding: 20px 35px;
+            font-size: 9pt;
         }
         
         .header {
             text-align: center;
-            margin-bottom: 8px;
-            padding-bottom: 6px;
+            margin-bottom: 6px;
+            padding-bottom: 4px;
             border-bottom: 2px solid #2c3e50;
         }
         
         .name {
-            font-size: 20pt;
+            font-size: 18pt;
             color: #2c3e50;
             font-weight: 700;
-            letter-spacing: 1px;
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
         
         .contact {
-            font-size: 9pt;
+            font-size: 8.5pt;
             color: #555;
         }
         
         .section {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
         
         .section-title {
-            font-size: 10pt;
+            font-size: 9.5pt;
             font-weight: 700;
             color: #2c3e50;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 4px;
-            padding-bottom: 2px;
+            margin-bottom: 3px;
+            padding-bottom: 1px;
             border-bottom: 1.5px solid #2c3e50;
         }
         
         .objective {
             text-align: justify;
-            font-size: 9pt;
-            line-height: 1.25;
-            color: #444;
+            font-size: 8.5pt;
+            line-height: 1.2;
         }
         
         .edu-row {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 2px;
-            font-size: 9pt;
+            margin-bottom: 1px;
+            font-size: 8.5pt;
         }
         
         .edu-title {
@@ -76,17 +73,13 @@
         .edu-detail {
             color: #666;
             font-style: italic;
-            font-size: 8.5pt;
+            font-size: 8pt;
         }
         
         .edu-year {
             color: #555;
-            font-size: 9pt;
+            font-size: 8.5pt;
             white-space: nowrap;
-        }
-        
-        .experience-item {
-            margin-bottom: 4px;
         }
         
         .exp-header {
@@ -98,60 +91,59 @@
         .exp-title {
             font-weight: 600;
             color: #2c3e50;
-            font-size: 9pt;
+            font-size: 8.5pt;
         }
         
         .exp-org {
             color: #555;
             font-style: italic;
-            font-size: 8.5pt;
+            font-size: 8pt;
         }
         
         .exp-date {
             color: #555;
-            font-size: 9pt;
+            font-size: 8.5pt;
             white-space: nowrap;
         }
         
         .exp-description {
-            font-size: 8.5pt;
-            margin-left: 12px;
-            margin-top: 2px;
-        }
-        
-        .exp-description li {
-            margin-bottom: 1px;
-        }
-        
-        .skills-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-        }
-        
-        .skill-category {
-            font-size: 8.5pt;
-            line-height: 1.25;
-        }
-        
-        .skill-category strong {
-            color: #2c3e50;
-            display: block;
-            margin-bottom: 2px;
-            font-size: 9pt;
-        }
-        
-        .skill-category ul {
-            margin-left: 12px;
+            font-size: 8pt;
+            margin-left: 10px;
             margin-top: 1px;
         }
         
-        .skill-category li {
+        .exp-description li {
+            margin-bottom: 0.5px;
+        }
+        
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        
+        .col-item {
+            font-size: 8pt;
+            line-height: 1.15;
+        }
+        
+        .col-item strong {
+            color: #2c3e50;
+            display: block;
             margin-bottom: 1px;
+            font-size: 8.5pt;
+        }
+        
+        .col-item ul {
+            margin-left: 10px;
+        }
+        
+        .col-item li {
+            margin-bottom: 0.5px;
         }
         
         .single-line {
-            font-size: 8.5pt;
+            font-size: 8pt;
             margin-bottom: 1px;
         }
         
@@ -162,13 +154,12 @@
         .bring-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 6px;
-            font-size: 8.5pt;
-            line-height: 1.2;
+            gap: 4px;
+            font-size: 8pt;
         }
         
         .bring-item {
-            padding-left: 10px;
+            padding-left: 8px;
             position: relative;
         }
         
@@ -178,25 +169,25 @@
             left: 0;
             color: #27ae60;
             font-weight: bold;
-            font-size: 9pt;
         }
         
         .info-grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            gap: 10px;
-            font-size: 8.5pt;
+            gap: 8px;
+            font-size: 8pt;
         }
         
         .declaration {
-            font-size: 8.5pt;
-            margin-top: 6px;
+            font-size: 8pt;
+            margin-top: 4px;
         }
         
         .sig-row {
             display: flex;
             justify-content: space-between;
-            margin-top: 4px;
+            margin-top: 3px;
+            font-size: 8pt;
         }
     </style>
 </head>
@@ -208,9 +199,7 @@
 
     <div class="section">
         <div class="section-title">Career Objective</div>
-        <p class="objective">
-            Motivated graduate with excellent interpersonal and organizational skills seeking an HR role in a progressive organization. Eager to leverage event management experience, strong communication abilities, and people-centric approach to contribute to talent acquisition, employee engagement, and organizational development while building a rewarding career in Human Resources.
-        </p>
+        <p class="objective">Motivated graduate with excellent interpersonal and organizational skills seeking an HR role in a progressive organization. Eager to leverage event management experience, strong communication abilities, and people-centric approach to contribute to talent acquisition, employee engagement, and organizational development while building a rewarding career in Human Resources.</p>
     </div>
 
     <div class="section">
@@ -240,27 +229,25 @@
 
     <div class="section">
         <div class="section-title">Experience & Activities</div>
-        <div class="experience-item">
-            <div class="exp-header">
-                <div>
-                    <div class="exp-title">Club Member & Event Organizer</div>
-                    <div class="exp-org">ECHOS Club ECM, J.B. Institute of Engineering and Technology</div>
-                </div>
-                <div class="exp-date">2021 - 2025</div>
+        <div class="exp-header">
+            <div>
+                <div class="exp-title">Club Member & Event Organizer</div>
+                <div class="exp-org">ECHOS Club ECM, J.B. Institute of Engineering and Technology</div>
             </div>
-            <ul class="exp-description">
-                <li>Successfully organized and coordinated multiple college events, managing logistics, venue arrangements, and participant coordination</li>
-                <li>Collaborated with team members to plan event schedules, delegate responsibilities, and ensure smooth execution</li>
-                <li>Engaged with students and faculty to promote events and encourage participation, demonstrating strong interpersonal skills</li>
-                <li>Handled event documentation, feedback collection, and post-event analysis to improve future activities</li>
-            </ul>
+            <div class="exp-date">2021 - 2025</div>
         </div>
+        <ul class="exp-description">
+            <li>Successfully organized and coordinated multiple college events, managing logistics, venue arrangements, and participant coordination</li>
+            <li>Collaborated with team members to plan event schedules, delegate responsibilities, and ensure smooth execution</li>
+            <li>Engaged with students and faculty to promote events and encourage participation, demonstrating strong interpersonal skills</li>
+            <li>Handled event documentation, feedback collection, and post-event analysis to improve future activities</li>
+        </ul>
     </div>
 
     <div class="section">
         <div class="section-title">Key Skills for HR</div>
-        <div class="skills-grid">
-            <div class="skill-category">
+        <div class="two-col">
+            <div class="col-item">
                 <strong>HR-Relevant Skills</strong>
                 <ul>
                     <li>Excellent interpersonal & relationship building</li>
@@ -270,7 +257,7 @@
                     <li>Conflict resolution and problem-solving</li>
                 </ul>
             </div>
-            <div class="skill-category">
+            <div class="col-item">
                 <strong>Professional Attributes</strong>
                 <ul>
                     <li>People-centric with empathetic approach</li>
@@ -323,14 +310,8 @@
     <div class="declaration">
         <strong>Declaration:</strong> I hereby declare that all information provided above is true and accurate to the best of my knowledge.
         <div class="sig-row">
-            <div>
-                <strong>Place:</strong> Hyderabad<br>
-                <strong>Date:</strong> ___________
-            </div>
-            <div style="text-align: right;">
-                ___________________<br>
-                (Janapati Vamshi)
-            </div>
+            <div><strong>Place:</strong> Hyderabad &nbsp;&nbsp; <strong>Date:</strong> ___________</div>
+            <div>___________________ (Janapati Vamshi)</div>
         </div>
     </div>
 </body>
